@@ -1,20 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0;
+    
+}
+.route66{
+    width: 100%;
+    height: 80vh;
+}
 h1{
     text-align: center;
     color: orangered;
 }
 main{
     text-align: center;
+    background-color: #EEEEEE;
+   
 }
 
     
 
 .section1{
+  
     display: flex;
     justify-content: space-around;
+    background-color: #EEEEEE;
+   padding-top: 8%;
 }
 .denver{
+ width: 100%;
+ 
     
-    width: 100%;
     
     
 }
@@ -22,6 +37,7 @@ main{
     border-radius: 1%;
     width: 30%;
     border: solid black 1px;
+    background-color: white;
     
     
   
@@ -36,10 +52,12 @@ main{
 }
 .mounte{
 
+    background-color: white;
     border-radius: 1%;
     margin: auto;
     width: 30%;
     border: solid 1px black;
+    
     
     
    
@@ -59,17 +77,17 @@ main{
     border-radius: 1px;
   border: solid black 1px;
     width: 30%;
+    background-color: white;
 }
 .section2{
     display: flex;
     justify-content: space-around;
     width: 95%;
     padding-top: 4%;
+    background-color:#EEEEEE ;
 }
 .disney{
-
-    
-    width: 100%;
+width: 100%;
 }
 .gare{
     width: 100%;
@@ -82,6 +100,8 @@ main{
     border-radius: 1%;
     width: 30%;
     border: solid black 1px;
+    background-color: white;
+   
 }
 .titredisney{
     color: orangered;
@@ -99,6 +119,7 @@ main{
     border-radius: 1%;
     width: 30%;
     border: solid black 1px;
+    background-color: white;
     
 }
 .titrelos{
@@ -114,10 +135,64 @@ main{
     border-radius: 1%;
     width: 30%;
     border: solid black 1px;
+    background-color: white;
 }
 .los{
    width: 100%;
     height: 45vh;
 }
+.video{
+    
+    background-color:#EEEEEE ;
+
+}
+.titrevideo{
+    text-align: center;
+}
+.video1{
+    margin-top: 4%;
+    text-align: center;
+    background-color: white ;
+}
+.video2{
+    margin-top: 4%;
+}
+.dernievideo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+
+   
+}
+.visa{
+    color: orangered;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.infopratique{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #FFF;
+    padding: 2rem;
+    box-shadow: 10px 10px 0px 0px #ff4d42;
+    height: 100%;
+    width: 19%;
+}
+.info2{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #FFF;
+    padding: 2rem;
+    box-shadow: 10px 10px 0px 0px #ff4d42;
+    height: 100%;
+    width: 19%;
+}
+
+
+
+
 
 
