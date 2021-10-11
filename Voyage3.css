@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+
+/* Global settings */
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    background-color:#24252A;
+    line-height: 1.5;
+}
+
+p{
+    color: white;
+    margin-bottom: 5em;
+}
+
+
+
+/* nav */
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+#headermel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 23px;
+    color: #b64f5d;
+    order: 3;
+    margin-left: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover{
+    color: rgba(255, 255, 255, 0.541);
+}
+
+nav{
+    order: 1;
+}
+.cta{
+    order: 2;
+}
+.nav__links{
+    list-style: none;
+
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li:nth-child(1){
+    padding: 0 20px 0 0;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+   color: #0088a9;
+}
+
+#button1{
+        margin-left: 20px;
+        padding: 9px 25px;
+        background-color: rgba(0,136,169,1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+}
+
+#button1:hover{
+    background-color: rgba(0,136,169,0.8);
+ }
+/* nav */  
+
+
+
+
+/*main*/
+ #article1{
+     margin-top: 50px;
+ }
+
+.Para1{
+    margin-top: 2%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.corona{
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+#gotokyo{
+    color: #b64f5d;
+}
+.article2{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#h4{
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #b64f5d;;
+}
+
+.imageagain{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%  ;
+    border-radius: 30px;
+}
+.borderimage{
+    border-radius: 30px;
+}
+
+.styleh3{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 45px;
+    font-size: 21px;
+    letter-spacing: 0.3px;
+    color: #b64f5d;
+    font-weight: 700;
+}
+
+.Para2{
+    margin-left: 45px;
+    font-size: 18px;
+    display: flex;
+    text-align: start;
+    letter-spacing: 0.3px;
+}
+
+/* main */
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.videoyt{
+    margin-top: 3%;
+    border-radius: 40px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+/* FOOTER */
+
+.containerfooter{
+	max-width: 1170px;
+	margin:auto;
+}
+.footermel{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+/*Footer*/
