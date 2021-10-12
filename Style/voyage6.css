@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    flex-basis: auto;
     
     
 }
@@ -18,8 +19,13 @@
     width: 70%;
     height: 50%;
    
+   
+}
+.bolivie2{
+    padding-left: 4%;
 }
 .photomine{
     width: 70%;
     height: 50%;
+    
 }
