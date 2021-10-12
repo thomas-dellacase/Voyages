@@ -4,28 +4,66 @@
 }
 .section1{
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    flex-basis: auto;
+   justify-content: center;
+   width: 80%;
+   margin: auto;
     
     
+    
+    
+    
+}
+.section1 div{
+    width: 33%;
 }
 .bolivie1{
     width: 90%;
-    height: 50%;
+    /* margin: auto; */
+    /* height: 50%; */
+    /* flex-basis: auto; */
    
 }
 .bolivie2{
-    width: 70%;
-    height: 50%;
+    width: 90%;
+    /* margin: auto; */
+    /* height: 50%; */
+    /* flex-basis: auto; */
    
    
 }
-.bolivie2{
-    padding-left: 4%;
-}
+
 .photomine{
-    width: 70%;
-    height: 50%;
+    width: 93%;
+    /* margin: auto; */
+    /* height: 50%; */
+    /* flex-basis: auto; */
     
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    
+    
+}
+.cholita{
+    height: 40vh;
+    width: 80%;
+    flex-basis: auto;
+   
+}
+.elchoro{
+   height: 40vh;
+   flex-basis: auto;
+   width: 60%;
+}
+.elchoro{
+    padding-top: 8%;
+}
+.voyagebolivie{
+   height: 40vh;
+   width: 70%;
+   flex-basis: auto;
 }
