@@ -210,6 +210,33 @@ box-shadow: 10px 10px 0px 0px #ff4d42;
 height: 100%;
 width: 19%;
 }
+.new input{
+    margin-bottom: 10px;
+    
+
+}
+.value{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 8px ;
+    transition: all 0.5 ease;
+    width: 30%;
+    margin-top: 2%;
+    
+   
+} 
+.value:hover{
+    background-color:#F0F0F0;
+    color: orangered;
+}
+.valuee{
+    background-color: white;
+    border: 1px solid black;
+    width: 80px;
+    width: 20%;
+    padding: 5px;
+   
+}
 
 
 
