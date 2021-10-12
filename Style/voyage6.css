@@ -2,41 +2,78 @@
     margin:0%;
     padding:0%;
 }
+h1{
+    text-align: center;
+}
+.sectionp{
+    
+    width: 80%;
+    margin: auto;
+    
+}
+.paragraphe1{
+    line-height: 30px;
+    margin-top: 10px;
+}
+.paragraphe2{
+    line-height: 30px;
+    margin-top: 3%;
+}
+.paragraphe3{
+    line-height: 30px;
+    margin-top: 3%;
+}
+.paragraphe4{
+   line-height: 30px; 
+   margin-top: 3%;
+}
+hr {
+    height: 1px;
+    margin: -0.5em 0;
+    padding: 0;
+    color:#e9ecef;
+    background-color:#e9ecef;
+    border: 0;
+    margin-top: 4%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .section1{
     display: flex;
    justify-content: center;
    width: 80%;
    margin: auto;
+   margin-top: 5%;
     
     
     
     
     
 }
+
 .section1 div{
     width: 33%;
+    margin: 1%;
+}
+.titrep{
+    font-size: 25px;
+
 }
 .bolivie1{
     width: 90%;
-    /* margin: auto; */
-    /* height: 50%; */
-    /* flex-basis: auto; */
-   
+    
 }
 .bolivie2{
     width: 90%;
-    /* margin: auto; */
-    /* height: 50%; */
-    /* flex-basis: auto; */
+    
    
    
 }
 
 .photomine{
     width: 93%;
-    /* margin: auto; */
-    /* height: 50%; */
-    /* flex-basis: auto; */
+    
     
 }
 .section2{
@@ -45,25 +82,30 @@
     justify-content: space-around;
     margin: auto;
     width: 80%;
+    margin-top: 5%;
     
     
 }
+.section2 div{
+    width: 33%;
+   
+}
 .cholita{
-    height: 40vh;
-    width: 80%;
+    
+    width: 90%;
     flex-basis: auto;
    
 }
 .elchoro{
-   height: 40vh;
-   flex-basis: auto;
-   width: 60%;
+   
+   
+   width: 90%;
 }
 .elchoro{
-    padding-top: 8%;
+width: 90%;
 }
 .voyagebolivie{
-   height: 40vh;
-   width: 70%;
-   flex-basis: auto;
+   
+   width: 90%;
+
 }
