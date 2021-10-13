@@ -9,18 +9,23 @@
     <title>Voyage</title>
 </head>
 <body id="BodyX">
-    <header id="headermel">
-        <h1 class="logo">San Francisco</h1>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="Voyage.html" target="blank">Acceuil</a></li>
-                <li><a href="Voyage1.html">Voyage 1</a></li>
-                <li><a href="Voyage2.html">Voyage 2</a></li>
-                <li><a href="Voyage3.html">Tokyo</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="#"><button id="button1">Contact</button></a>
-    </header>
+    <header id="navbar" class="nav">
+        <a href="Acceuil.html" >Home</a>
+        <a href="#">Contact</a>
+        <div class="dropdown-1">
+            <button id="button">Pages</button>
+            <div class="content">
+                <a href="#" >Onglet1</a>
+                <a href="#" >Onglet2</a>
+                <a href="#" >Onglet3</a>
+                <a href="#" >Cheer</a>
+                <a href="Voyage4.html" >Francisco</a>
+                <a href="voyage3.html" >Tokyo</a>  
+            </div>
+        </div>
+        <a href="#">Onglet4</a>
+        <a class="icon" onclick="myFunction()">&#9776;</a>
+</header>
     <main>
         <div class="boite1">
             <p class="p1">San Francisco,<br> officially the City and County of San Francisco,<br> is a cultural, commercial,<br> and financial center in the U.S.<br> state of California.</p>
@@ -31,12 +36,12 @@
         <p id="p2">You got severals things to see <br><br> There at San Francisco </p>
         <div class="boitephoto">
             <!---je dois changer les images , les mettres en lignes une part une et les space evently grace a leurs containeurs pour ensuite display wrap le containeur-->
-            <img src="imagesMel/golden1.jpg" class="golden" alt="golden" >
-            <img src="imagesMel/golden2.jpg" class="golden" alt="golden">
-            <img src="imagesMel/golden3.jpg" class="golden" alt="golden">
-            <img src="imagesMel/golden4.jpg" class="golden" alt="golden">
-            <img src="imagesMel/golden5.jpg" class="golden" alt="golden" id="goldentop">
-            <img src="imagesMel/golden6.jpg" class="golden" alt="golden" id="goldentop">
+            <img src="Picture/imagesMel/golden1.jpg" class="golden" alt="golden" >
+            <img src="Picture/imagesMel/golden2.jpg" class="golden" alt="golden">
+            <img src="Picture/imagesMel/golden3.jpg" class="golden" alt="golden">
+            <img src="Picture/imagesMel/golden4.jpg" class="golden" alt="golden">
+            <img src="Picture/imagesMel/golden5.jpg" class="golden" alt="golden" id="goldentop">
+            <img src="Picture/imagesMel/golden6.jpg" class="golden" alt="golden" id="goldentop">
         </div>
     </main>
     <footer class="footer">
@@ -72,4 +77,5 @@
    </footer>
     
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
