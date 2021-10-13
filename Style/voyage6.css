@@ -28,8 +28,8 @@ line-height: 30px;
  margin-top: 3%;
 }
 .paragraphe4{
-   line-height: 30px; 
-   margin-top: 3%;
+line-height: 30px; 
+margin-top: 3%;
 }
 hr {
     height: 1px;
@@ -117,11 +117,10 @@ p{
     font-family:'montserrat',sans-serif ;
 }
 .valuee{
-    background-color: white;
-    border: 1px solid black;
-    width: 80px;
-    width: 20%;
-    padding: 5px;
+background-color: white;
+border: 1px solid black;
+width: 10%;
+padding: 5px;
    
 }
 .value:hover{
