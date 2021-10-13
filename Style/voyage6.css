@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
 *{
-    margin:0%;
-    padding:0%;
+margin:0%;
+padding:0%;
 }
 h1{
-    text-align: center;
-    font-family: 'montserrat',sans-serif;
+text-align: center;
+font-family: 'montserrat',sans-serif;
 
 }
 .sectionp{
     
-    width: 80%;
-    margin: auto;
-    font-family:'montserrat',sans-serif ;
+width: 80%;
+ margin: auto;
+font-family:'montserrat',sans-serif ;
     
 }
 .paragraphe1{
-    line-height: 30px;
-    margin-top: 10px;
+line-height: 30px;
+margin-top: 10px;
 }
 .paragraphe2{
-    line-height: 30px;
-    margin-top: 3%;
+line-height: 30px;
+margin-top: 3%;
 }
 .paragraphe3{
-    line-height: 30px;
-    margin-top: 3%;
+line-height: 30px;
+ margin-top: 3%;
 }
 .paragraphe4{
    line-height: 30px; 
@@ -115,4 +115,36 @@ width: 90%;
 }
 p{
     font-family:'montserrat',sans-serif ;
+}
+.valuee{
+    background-color: white;
+    border: 1px solid black;
+    width: 80px;
+    width: 20%;
+    padding: 5px;
+   
+}
+.value:hover{
+    background-color:#F0F0F0;
+    color: orangered;
+
+
+}
+.value{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 8px ;
+    transition: all 0.5 ease;
+    width: 30%;
+    margin-top: 2%;
+    
+
+}
+.new input{
+    margin-bottom: 10px;
+    
+
+}
+.form{
+    text-align: center;
 }
