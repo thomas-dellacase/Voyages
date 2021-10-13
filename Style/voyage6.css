@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
 *{
     margin:0%;
     padding:0%;
 }
 h1{
     text-align: center;
+    font-family: 'montserrat',sans-serif;
+
 }
 .sectionp{
     
     width: 80%;
     margin: auto;
+    font-family:'montserrat',sans-serif ;
     
 }
 .paragraphe1{
@@ -108,4 +112,7 @@ width: 90%;
    
    width: 90%;
 
+}
+p{
+    font-family:'montserrat',sans-serif ;
 }
