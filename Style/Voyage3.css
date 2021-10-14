@@ -88,8 +88,8 @@ header .icon{
 
 @media (max-width: 600px){
     header{
-        margin-top: -20px;
-        }
+    margin-top: -20px;
+    }
     header a{
         display: none;
     }
@@ -141,6 +141,8 @@ header .dropdown-1:hover .content{
 } 
 }
 /* nav */  
+
+
 
 
 
@@ -212,14 +214,6 @@ header .dropdown-1:hover .content{
 
 /* main */
 
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
-
 .videoyt{
     margin-top: 3%;
     border-radius: 40px;
@@ -229,6 +223,17 @@ ul{
 
 
 /* FOOTER */
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+ul{
+	list-style: none;
+}
+
 
 .containerfooter{
 	max-width: 1170px;

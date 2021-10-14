@@ -421,6 +421,7 @@ width: 19%;
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
