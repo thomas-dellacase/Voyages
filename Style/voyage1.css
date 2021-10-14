@@ -127,210 +127,209 @@ header .dropdown-1:hover .content{
 } 
 }
 body{
-font-family: 'montserrat',sans-serif
+    font-family: 'montserrat',sans-serif
 }
 
 .presentation{
- width: 90%;
- margin: auto;
- font-size: 20px;
- line-height: 25px;
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        line-height: 25px;
 }
 .route66{
-width: 100%;
- height: 80vh;
+    width: 100%;
+    height: 80vh;
 }
 h1{
  text-align: center;
  color: orangered;
 }
 main{
- text-align: center;
- background-color: #EEEEEE;
+    text-align: center;
+    background-color: #EEEEEE;
    
 }
 
     
 
 .section1{
-  
- display: flex;
-justify-content: space-around;
-background-color: #EEEEEE;
-padding-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EEEEEE;
+    padding-top: 8%;
 }
 .denver{
- width: 100%;
+    width: 100%;
  
     
     
     
 }
 .denvere{
-border-radius: 1%;
-width: 30%;
-border: solid black 1px;
-background-color: white;
+    border-radius: 1%;
+    width: 30%;
+    border: solid black 1px;
+  background-color: white;
     
     
   
 
 }
 .titre-denver{
-color: orangered;
+    color: orangered;
 }
 .mount{
     
-width: 100%;
+    width: 100%;
 }
 .mounte{
 
-background-color: white;
-border-radius: 1%;
-width: 30%;
-border: solid 1px black;
+    background-color: white;
+    border-radius: 1%;
+    width: 30%;
+    border: solid 1px black;
 }
 .titremount{
-color: orangered;
+    color: orangered;
 }
 .gunnison{
-width: 100%;
+    width: 100%;
 
 
 }
 .titreblack{
-color: orangered;
+    color: orangered;
 }
 .gunnis{
-border-radius: 1px;
-border: solid black 1px;
-width: 30%;
-background-color: white;
+    border-radius: 1px;
+    border: solid black 1px;
+    width: 30%;
+    background-color: white;
 }
 .section2{
-display: flex;
-justify-content: space-around;
-padding-top: 4%;
-background-color:#EEEEEE ;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    background-color:#EEEEEE ;
 }
 .logo{
-width: 14%;
+    width: 14%;
 }
 .disney{
-width: 100%;
+    width: 100%;
 }
 .gare{
-width: 100%;
+    width: 100%;
 }
 .venice{
-width: 100%;
+    width: 100%;
 }
 .Disney{
-width: 30%;
-border-radius: 1%;
-width: 30%;
-border: solid black 1px;
-background-color: white;
+    width: 30%;
+    border-radius: 1%;
+    width: 30%;
+    border: solid black 1px;
+    background-color: white;
    
 }
 .titredisney{
-color: orangered;
+    color: orangered;
 }
 .gar{
-width: 100%;
-height: 40vh;
+    width: 100%;
+    height: 40vh;
 }
 .titregare{
-color: orangered;
+    color: orangered;
 }
 .venic{
-width: 30%;
-text-align: center;
-border-radius: 1%;
-width: 30%;
- border: solid black 1px;
- background-color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 1%;
+    width: 30%;
+    border: solid black 1px;
+    background-color: white;
     
 }
 .titrelos{
-color: orangered;
+    color: orangered;
 }
 .Venice{
-height: 20%;
+    height: 20%;
    
 }
 .Gare{
-width: 65%;
-text-align: center;
- border-radius: 1%;
-width: 30%;
-border: solid black 1px;
-background-color: white;
+    width: 65%;
+    text-align: center;
+    border-radius: 1%;
+    width: 30%;
+    border: solid black 1px;
+    background-color: white;
 }
 .los{
-width: 100%;
-height: 45vh;
+    width: 100%;
+    height: 45vh;
 }
 .video{
     
-background-color:white;
-padding: 2%;
-margin-top: 2%;
+    background-color:white;
+    padding: 2%;
+    margin-top: 2%;
 
 }
 .description{
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .desc{
-width: 50%;
-font-size: 20px;
+    width: 50%;
+    font-size: 20px;
 }
 .titrevideo{
-text-align: center;
+    text-align: center;
 }
 .video1{
-margin-top: 4%;
-text-align: center;
+    margin-top: 4%;
+    text-align: center;
     
 }
 .video2{
- margin-top: 4%;
+    margin-top: 4%;
 }
 .dernievideo{
- margin-top: 4%;
- font-size: 35px;
+    margin-top: 4%;
+    font-size: 35px;
 
    
 }
 .visa{
-color: orangered;
+    color: orangered;
 }
 .info{
-display: flex;
-justify-content: center;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 .infopratique{
- margin-left: 10rem;
-margin-right: 10rem;
-background-color: #FFF;
-padding: 2rem;
-box-shadow: 10px 10px 0px 0px #ff4d42;
- height: 100%;
- width: 19%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #FFF;
+    padding: 2rem;
+    box-shadow: 10px 10px 0px 0px #ff4d42;
+    height: 100%;
+     width: 19%;
 }
 .info2{
-margin-left: 10rem;
-margin-right: 10rem;
-background-color: #FFF;
-padding: 2rem;
-box-shadow: 10px 10px 0px 0px #ff4d42;
-height: 100%;
-width: 19%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #FFF;
+    padding: 2rem;
+    box-shadow: 10px 10px 0px 0px #ff4d42;
+    height: 100%;
+    width: 19%;
 }
 .new input{
     margin-bottom: 10px;
@@ -352,10 +351,10 @@ width: 19%;
     color: orangered;
 }
 .valuee{
-background-color: white;
-border: 1px solid black;
-width: 6%;
-height: 3vh;
+    background-color: white;
+    border: 1px solid black;
+    width: 6%;
+    height: 3vh;
     
 }
 
@@ -368,8 +367,8 @@ height: 3vh;
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 15px;
+        width: 25%;
+         padding: 0 15px;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -403,8 +402,8 @@ height: 3vh;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
+	            color: #ffffff;
+	            padding-left: 8px;
 }
 .footer-col .social-links a{
 	display: inline-block;
