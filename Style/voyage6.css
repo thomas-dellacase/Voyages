@@ -345,6 +345,10 @@ padding: 5px;
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+    
+}
+main{
+    margin-top: 5%;
 }
 }
 @media(max-width: 574px){

@@ -153,7 +153,221 @@ header .dropdown-1:hover .content{
     
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
 
+body{
+    font-family: Montserrat;
+    height: 100%;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+.link-pic{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#art1{
+    width: 100%;
+    height: 70%;
+    background-image: url('../Picture/avion.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#form{
+background-color: aliceblue;
+width: 50%;
+height: 65%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+}
+
+#sec-titre{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+#sec-form1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+#sec-form2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+#sec-form3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+#art2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sec-titre2{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#p-titre{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#usa{
+    width: 40%;
+    height: 70%;
+    background-image: url("../Picture/canyon.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+#birmanie{
+    width: 40%;
+    height: 70%;
+    background-image: url("../Picture/pagode.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+#tokyo{
+    width: 40%;
+    height: 70%;
+    background-image: url("../Picture/tokyo-neon.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+#sf{
+    width: 40%;
+    height: 70%;
+    background-image: url("../Picture/gate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+#canada{
+    width: 40%;
+    height: 70%;
+    background-image: url("../Picture/canada.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+#bolivie{
+    width: 40%;
+    height: 70%;
+    background-image: url("../Picture/bolivie2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+
+h3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color:rgb(0, 0, 0, 0.4)
+}
+.text-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:rgb(0, 0, 0, 0.4)
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
 
 
 
@@ -177,6 +391,9 @@ ul{
 .footermel{
 	background-color: #24262b;
     padding: 70px 0;
+    margin-top: 100%;
+    height: 100%;
+   
 }
 .footer-col{
    width: 25%;
@@ -236,8 +453,16 @@ ul{
 
 /*responsive*/
 @media(max-width: 767px){
+    main{
+        margin-top: 5%;
+    }
+
+    .footermel{
+        margin-top: 350%;
+    }
     footer{bottom: 0;
     height: 400px;
+    
 }
   .footer-col{
     width: 50%;
@@ -266,89 +491,5 @@ ul{
 
 
 
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-.pulse-anim {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #000;
-    margin: 100px auto 0;
-    box-shadow: 0 0 0 0 #000;
-    animation: pulse 1.3s infinite;
-}
-
-@keyframes pulse {
-    to {
-        box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
-    }
-}
-
-
-
-
-
-
-/* For Fun-anim */
-
-.nope-anim {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    background: #000;
-    margin: 100px auto 0;
-    cursor: pointer;
-}
-.nope-anim:hover {
-    animation: nope .4s forwards;
-}
-
-@keyframes nope {
-
-    0% {
-        transform: translateX(0px);
-    }
-    20% {
-        transform: translateX(-10px);
-    }
-    40% {
-        transform: translateX(10px);
-    }
-    60% {
-        transform: translateX(-10px);
-    }
-    80% {
-        transform: translateX(10px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-
-}
-
-/* Apparition */
-
-h1 {
-    margin-top: 50px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    animation: apparition 0.8s ease-out;
-}
-
-@keyframes apparition {
-    from {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
 
 
